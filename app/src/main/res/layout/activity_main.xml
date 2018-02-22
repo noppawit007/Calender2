@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/เดือนของไทย"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="เดือนของไทย"
+        android:textSize="35dp" />
+
+    <TextSwitcher
+        android:id="@+id/textswitcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:layout_margin="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_weight="0.01">
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="121dp"
+            android:layout_height="75dp"
+            android:layout_gravity="right"
+            android:text="ถัดไป" />
+
+        <Button
+            android:id="@+id/pre"
+            android:layout_width="109dp"
+            android:layout_height="70dp"
+            android:layout_gravity="left"
+            android:text="ย้อนกลับ" />
+    </FrameLayout>
+
+</LinearLayout>
